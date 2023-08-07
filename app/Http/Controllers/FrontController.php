@@ -8,4 +8,9 @@ class FrontController extends Controller
     {
         return view('front.index');
     }
+
+    public function blog()
+    {
+        return view('front.blog');
+    }
 }

@@ -9,7 +9,6 @@
     }
 
     html {
-        line-height: 1.5;
         -webkit-text-size-adjust: 100%;
         tab-size: 4;
         font-feature-settings: normal;
@@ -24,10 +23,28 @@
     body {
         font-family: 'Work Sans', sans-serif;
         font-style: normal;
+        overflow-x: hidden;
     }
 
     .contained {
-        @apply mx-auto max-w-7xl px-4 lg:px-0;
+        @apply mx-auto md:max-w-2xl lg:max-w-7xl px-4 md:px-8 lg:px-0;
+    }
+
+    .section {
+        @apply relative py-8 md:py-12 lg:py-24;
+    }
+
+    .font-dm {
+        font-family: 'DM Serif Display', sans-serif;
+    }
+
+    .h2 {
+        @apply font-semibold text-2xl lg:text-5xl mb-2.5 lg:mb-4 !leading-tight;
+    }
+
+    .h2 span {
+        font-family: 'DM Serif Display', sans-serif;
+        @apply text-accent-500 italic;
     }
 
     .header {
@@ -77,7 +94,6 @@
         @apply left-0 relative inline-block;
     }
 
-
     .animated-button svg {
         transform: translate3d(-15px, -50%, 0);
         opacity: 0;
@@ -95,13 +111,26 @@
     }
 
     .hero-cta {
-        @apply flex w-full lg:w-auto lg:inline-flex items-center justify-center rounded-full py-1.5 px-4 lg:py-3 lg:px-8 font-semibold transition-colors duration-300 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-accent-500 text-white hover:bg-accent-500/90 hover:text-slate-100 active:bg-accent-700  active:text-slate-300 focus-visible:outline-accent-700;
+        @apply flex w-full lg:w-auto lg:inline-flex items-center justify-center rounded-full py-1.5 md:py-2.5 px-4 lg:py-3 lg:px-8 font-semibold transition-colors duration-300 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-accent-500 text-white hover:bg-accent-500/90 hover:text-slate-100 active:bg-accent-700  active:text-slate-300 focus-visible:outline-accent-700;
     }
 
     .hero-cta.outlined {
         @apply bg-white  border border-accent-500 text-accent-500 hover:bg-accent-500 hover:text-white;
     }
+
     .hero-cta.outlined:hover svg {
         @apply fill-white;
+    }
+
+    .zoom-image-container {
+        @apply overflow-hidden rounded-xl cursor-pointer;
+    }
+
+    .zoom-image-container img {
+        @apply transition-transform duration-300;
+    }
+
+    .zoom-image-container:hover img {
+        @apply scale-125;
     }
 }
