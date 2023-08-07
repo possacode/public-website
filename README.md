@@ -35,5 +35,11 @@ php artisan migrate
 
 Lancer le serveur dev
 ```bash
-php artisan migrate
+php artisan serve
 ```
+
+Lancer vite pour servir les assets
+```bash
+npm run dev
+```
+
