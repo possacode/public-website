@@ -16,7 +16,7 @@
         @apply h-full scroll-smooth bg-white antialiased;
     }
 
-    html.sr .load-hidden {
+  [data-reveal], .load-hidden {
         visibility: hidden;
     }
 
@@ -24,6 +24,7 @@
         font-family: 'Work Sans', sans-serif;
         font-style: normal;
         overflow-x: hidden;
+      width: 100vw;
     }
 
     .contained {
@@ -131,6 +132,6 @@
     }
 
     .zoom-image-container:hover img {
-        @apply scale-125;
+      @apply scale-x-100 lg:scale-125;
     }
 }

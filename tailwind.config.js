@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+import typography from "@tailwindcss/typography"
+
 export default {
     content: [
-        "./resources/**/*.blade.php",
+        "./resources/views/layouts/default.blade.php",
+        "./resources/views/front/**/*.blade.php",
         "./resources/**/*.js",
     ],
     theme: {
@@ -18,7 +21,7 @@ export default {
         },
     },
     plugins: [
-        require('@tailwindcss/typography'),
+        typography,
     ],
 }
 

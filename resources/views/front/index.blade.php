@@ -148,7 +148,7 @@
                                 <img src="/images/events/event-2.jpg" alt=""
                                      class="w-full lg:min-h-[320px] h-auto object-cover rounded-xl">
                             </div>
-                            <div data-reveal data-reveal-delay="250" class="zoom-image-container">
+                            <div data-reveal data-reveal-delay="150" class="zoom-image-container">
                                 <img src="/images/events/event-3.jpg" alt=""
                                      class="w-full lg:min-h-[320px] h-auto object-cover rounded-xl">
                             </div>
@@ -206,8 +206,8 @@
                             </span>
                             <time class="text-slate-500 block font-medium text-xs lg:text-base"
                                   datetime="{{ now()->subDays(10)->toIso8601String() }}">{{ now()->subDays(10)->format('d M Y') }}</time>
-                            <span class="text-lg lg:text-3xl font-semibold text-gray-900 group-hover:text-accent-500">Consectures Dummy Content Velit officia consequat duis enim velit</span>
-                            <span class="block lg:max-w-xl text-sm lg:text-lg text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit xercitation veniam consequat sunt nostrud amet.</span>
+                            <span class="text-lg lg:text-2xl font-semibold text-gray-900 group-hover:text-accent-500">Consectures Dummy Content Velit officia consequat duis enim velit</span>
+                            <span class="block lg:max-w-xl text-sm lg:text-base text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit xercitation veniam consequat sunt nostrud amet.</span>
                         </a>
                     </article>
                     <div class="flex flex-col gap-4 lg:gap-8" data-reveal data-reveal-origin="right">
@@ -218,11 +218,11 @@
                                          class="w-full lg:w-48 lg:h-40 object-cover rounded-2xl">
                                 </span>
                                     <span class="flex-1 mt-2 md:mt-0 md:ml-6">
-                                    <time class="block text-slate-500 text-xs lg:text-base font-medium"
+                                    <time class="block text-slate-500 text-xs lg:text-sm font-medium"
                                           datetime="{{ now()->subDays(10)->toIso8601String() }}">{{ now()->subDays(10)->format('d M Y') }}</time>
                                     <span
-                                        class="block text-lg lg:text-xl font-semibold text-gray-900 transition-colors duration-300 group-hover:text-accent-500 mb-2 lg:mb-4">Consectures Dummy Content Velit officia consequat duis enim velit</span>
-                                    <span class="block max-w-xl text-sm lg:text-lg text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
+                                        class="block text-base lg:text-lg font-semibold text-gray-900 transition-colors duration-300 group-hover:text-accent-500 mb-2 lg:mb-4">Consectures Dummy Content Velit officia consequat duis enim velit</span>
+                                    <span class="block max-w-xl text-sm lg:text-base text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
                                 </span>
                             </a>
                         </article>
@@ -233,11 +233,11 @@
                                          class="w-full lg:w-48 lg:h-40 object-cover rounded-2xl">
                                 </span>
                                     <span class="flex-1 mt-2 md:mt-0 md:ml-6">
-                                    <time class="block text-slate-500 text-xs lg:text-base font-medium"
+                                    <time class="block text-slate-500 text-xs lg:text-sm font-medium"
                                           datetime="{{ now()->subDays(10)->toIso8601String() }}">{{ now()->subDays(10)->format('d M Y') }}</time>
                                     <span
-                                        class="block text-lg lg:text-xl font-semibold text-gray-900 transition-colors duration-300 group-hover:text-accent-500 mb-2 lg:mb-4">Consectures Dummy Content Velit officia consequat duis enim velit</span>
-                                    <span class="block max-w-xl text-sm lg:text-lg text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
+                                        class="block text-base lg:text-lg font-semibold text-gray-900 transition-colors duration-300 group-hover:text-accent-500 mb-2 lg:mb-4">Consectures Dummy Content Velit officia consequat duis enim velit</span>
+                                    <span class="block max-w-xl text-sm lg:text-base text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
                                 </span>
                             </a>
                         </article>
@@ -248,11 +248,11 @@
                                          class="w-full lg:w-48 lg:h-40 object-cover rounded-2xl">
                                 </span>
                                     <span class="flex-1 mt-2 md:mt-0 md:ml-6">
-                                    <time class="block text-slate-500 text-xs lg:text-base font-medium"
+                                    <time class="block text-slate-500 text-xs lg:text-sm font-medium"
                                           datetime="{{ now()->subDays(10)->toIso8601String() }}">{{ now()->subDays(10)->format('d M Y') }}</time>
                                     <span
-                                        class="block text-lg lg:text-xl font-semibold text-gray-900 transition-colors duration-300 group-hover:text-accent-500 mb-2 lg:mb-4">Consectures Dummy Content Velit officia consequat duis enim velit</span>
-                                    <span class="block max-w-xl text-sm lg:text-lg text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
+                                        class="block text-base lg:text-lg font-semibold text-gray-900 transition-colors duration-300 group-hover:text-accent-500 mb-2 lg:mb-4">Consectures Dummy Content Velit officia consequat duis enim velit</span>
+                                    <span class="block max-w-xl text-sm lg:text-base text-slate-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
                                 </span>
                             </a>
                         </article>

@@ -27,3 +27,9 @@ Route::prefix('/')->controller(FrontController::class)->group(function () {
     Route::get('/blog', 'blog')->name('blog');
     Route::get('/blog/{id}', 'blogDetail')->name('blogDetail');
 });
+
+Route::prefix('/admin')->name('admin.')->group(function() {
+    Route::get('/', function () {
+        return view('admin.index');
+    })->name('index');
+});

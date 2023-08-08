@@ -1,11 +1,12 @@
 # Possacode Website
 Cette version du site est fait en PHP
 
-| Techlogie    |                                     |
-|--------------|-------------------------------------|
-| Laravel      | [Website](https://laravel.com/)     |
-| Tailwind CSS | [Website](https://tailwindcss.com/) |
-| And Heart    | 💓                                  |
+| Techlogie    |                                                    |
+|--------------|----------------------------------------------------|
+| Laravel      | [https://laravel.com](https://laravel.com)         |
+| Tailwind CSS | [https://tailwindcss.com](https://tailwindcss.com) |
+| TailAdmin    | [https://tailadmin.com](https://tailadmin.com)     |
+| And Heart    | 💓                                                 |
 
 Pour débuter
 ````bash
