@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\Category;
 use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,4 +33,15 @@ Route::prefix('/admin')->name('admin.')->group(function() {
     Route::get('/', function () {
         return view('admin.index');
     })->name('index');
+
+    Route::prefix('/categories')
+        ->controller(Category::class)
+        ->name('category.')
+        ->group(function () {
+            Route::get('/', 'index')->name('index');
+            Route::get('/create', 'create')->name('create');
+            Route::post('/create', 'store');
+            Route::get('/edit/{category}', 'edit')->name('edit');
+            Route::put('/edit/{category}', 'update');
+        });
 });

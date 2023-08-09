@@ -5,9 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-        eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template
-    </title>
+    <title>@yield('title', 'Admin')</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -74,13 +72,13 @@
                     <h3 class="mb-4 ml-4 text-sm font-medium text-bodydark2">MENU</h3>
 
                     <ul class="mb-6 flex flex-col gap-1.5">
-                        <!-- Menu Item Calendar -->
+                        <!-- Menu Item Dashboard -->
                         <li>
                             <a
                                 class="group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4"
                                 href="{{ route('admin.index') }}"
-                                @click="selected = (selected === 'Calendar' ? '':'Calendar')"
-                                :class="{ 'bg-graydark dark:bg-meta-4': (selected === 'Calendar') && (page === 'calendar') }"
+                                @click="selected = (selected === 'Dashboard' ? '':'Dashboard')"
+                                :class="{ 'bg-graydark dark:bg-meta-4': (selected === 'Dashboard') && (page === 'dashboard') }"
                             >
                                 <svg
                                     class="fill-current"
@@ -111,7 +109,18 @@
                                 Dashboard
                             </a>
                         </li>
-                        <!-- Menu Item Calendar -->
+                        <!-- Menu Item Dashboard -->
+
+                        <li>
+                            <a class="group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4"
+                               href="{{ route('admin.category.index') }}"
+                               @click="selected = (selected === 'Category' ? '':'Category')"
+                               :class="{ 'bg-graydark dark:bg-meta-4': selected === 'Category' }"
+                            >
+                                @svg('heroicon-m-rectangle-group', 'w-6 h-6')
+                                Catégories
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -233,9 +242,8 @@
                             <span class="block text-sm font-medium text-black dark:text-white">Thomas Anree</span>
                             <span class="block text-xs font-medium">UX Designer</span>
                           </span>
-
-                                            <span class="h-12 w-12 rounded-full">
-                            <img src="src/images/user/user-01.png" alt="User" />
+                          <span class="h-12 w-12 rounded-full">
+                            <img src="/src/images/user/user-01.png" alt="User"/>
                           </span>
 
                             <svg :class="dropdownOpen && 'rotate-180'" class="hidden fill-current sm:block" width="12" height="8"

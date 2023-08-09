@@ -2,6 +2,7 @@ export default {
     content: [
         "./resources/views/layouts/admin.blade.php",
         "./resources/views/admin/**/*.blade.php",
+        "./resources/views/components/**/*.blade.php",
     ],
     darkMode: 'class',
     theme: {
