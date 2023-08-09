@@ -42,10 +42,9 @@
     .h2 {
         @apply font-semibold text-2xl lg:text-5xl mb-2.5 lg:mb-4 !leading-tight;
     }
-
-    .h2 span {
-        font-family: 'DM Serif Display', sans-serif;
-        @apply text-accent-500 italic;
+    em {
+      font-family: 'DM Serif Display', sans-serif;
+      @apply text-accent-500 italic;
     }
 
     .header {

@@ -7,10 +7,10 @@
                 <div class="flex flex-col text-left">
                     <h1 data-reveal
                         class="mb-3 lg:mb-0 font-semibold tracking-tight !leading-[1.2] text-slate-900 text-3xl lg:text-5xl">
-                        <span class="text-accent-500">PossaCode, </span>
+                        <em class="text-accent-500">PossaCode, </em>
                         une communauté
-                        <span class="text-accent-500 font-dm"> innovante </span>
-                        de <span class="text-accent-500 font-dm"> développeurs </span>
+                        <em class="text-accent-500 font-dm"> innovante </em>
+                        de <em class="text-accent-500 font-dm"> développeurs </em>
                         en Afrique.
                     </h1>
 
@@ -48,7 +48,7 @@
             <div class="contained">
                 <div class="max-w-3xl mx-auto text-center pb-12 lg:pb-24">
                     <h2 data-reveal class="h2">
-                        Notre Engagement envers <span>l'Excellence</span> pour <span>l'Afrique</span>
+                        Notre Engagement envers <em>l'Excellence</em> pour <em>l'Afrique</em>
                     </h2>
 
                     <p data-reveal data-reveal-delay="100" class="text-slate-200 text-base lg:text-lg">
@@ -131,6 +131,30 @@
             </div>
         </section>
 
+        <section id="partners" class="section">
+            <x-background-shape />
+            <div class="contained">
+                <h2 class="h2 text-center">Nos <em>Paternaires</em></h2>
+                <div class="flex flex-wrap justify-center items-center pt-6 gap-6">
+                    <a href="https://devscast.tech" target="_blank">
+                        <img class="max-w-[120px] lg:max-w-[200px]" src="/images/partners/devcast.png" alt="Logo DevCast">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img class="max-w-[120px] lg:max-w-[200px] rounded-full" src="/images/partners/sfa.jpg" alt="Logo SFA">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img class="max-w-[120px] lg:max-w-[200px]" src="/images/partners/cgdt.jpg" alt="Logo CGDT">
+                    </a>
+                    <a href="https://galsen.dev" target="_blank">
+                        <img class="max-w-[120px] lg:max-w-[200px] rounded-full" src="/images/partners/galsendev.jpg" alt="Logo GalsenDev">
+                    </a>
+                    <a href="https://j2code.com" target="_blank">
+                        <img class="max-w-[120px] lg:max-w-[200px]" src="/images/partners/j2code.png" alt="Logo Journée du Code">
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <section id="latest-events" class="section">
             <x-background-shape />
             <div class="contained">
@@ -157,7 +181,7 @@
 
                     <div data-reveal data-reveal-origin="right"
                          class="order-1 lg:order-2 col-start-1 lg:col-start-8 col-span-full lg:col-span-4 mb-0 lg:mb-4">
-                        <h2 class="h2">Notre dernier <span>Événement</span></h2>
+                        <h2 class="h2">Notre dernier <em>Événement</em></h2>
                         <p class="text-slate-600 text-sm lg:text-lg mb-4 lg:mb-8">
                             Plongez-vous dans l'univers captivant du développement lors de nos événements,
                             où l'innovation, le partage de connaissances et le réseautage
@@ -196,7 +220,7 @@
                  class="hidden lg:block absolute top-0 right-0 xl:mt-10 -mr-24 lg:-mr-0">
 
             <div class="relative px-4 mx-auto contained">
-                <h2 data-reveal class="h2 text-center mb-6 md:mb-12 lg:mb-24">Les dernières <span>Nouvelles</span></h2>
+                <h2 data-reveal class="h2 text-center mb-6 md:mb-12 lg:mb-24">Les dernières <em>Nouvelles</em></h2>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 mb-6 lg:mb-12">
                     <article data-reveal>
                         <a href="#" class="flex flex-col gap-2 lg:gap-4">

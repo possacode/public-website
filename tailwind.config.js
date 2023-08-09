@@ -5,6 +5,7 @@ export default {
     content: [
         "./resources/views/layouts/default.blade.php",
         "./resources/views/front/**/*.blade.php",
+        "./resources/views/components/**/*.blade.php",
         "./resources/**/*.js",
     ],
     theme: {
